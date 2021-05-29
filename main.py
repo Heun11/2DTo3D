@@ -13,6 +13,7 @@ clock = p.time.Clock()
 BLACK = (0,0,0)
 WHITE = (255,255,255)
 RED = (255,0,0)
+BLUE = (27, 234, 245)
 
 Xangle = 0
 Yangle = 0
@@ -48,7 +49,7 @@ projected_points = [
 
 
 def connect_points(i, j, points):
-    p.draw.line(screen, WHITE, (points[i][0], points[i][1]), (points[j][0], points[j][1]))
+    p.draw.line(screen, BLUE, (points[i][0], points[i][1]), (points[j][0], points[j][1]))
 
 # main loop
 run = True
