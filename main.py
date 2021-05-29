@@ -137,7 +137,8 @@ while run:
 
         projected_points[i] = [x,y]
 
-        p.draw.circle(screen, RED, (x,y), 5)
+        # p.draw.circle(screen, RED, (x,y), 5)
+        
         i+=1
 
     connect_points(0, 1, projected_points)
