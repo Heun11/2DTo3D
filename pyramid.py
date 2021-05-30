@@ -16,16 +16,16 @@ GREEN = (0,255,0)
 BLUE = (27, 234, 245)
 
 cube_position = [WIDTH//2,HEIGHT//2]
-scale = 70
+scale = 100
 speed = 0.01
 angle = 0
 points = [
-    np.matrix([-2,-2,2]),
-    np.matrix([-2,-2,-2]),
-    np.matrix([2,-2,-2]),
-    np.matrix([2,-2,2]),
+    np.matrix([-1,-1,1]),
+    np.matrix([-1,-1,-1]),
+    np.matrix([1,-1,-1]),
+    np.matrix([1,-1,1]),
 
-    np.matrix([-0,2,-0]),
+    np.matrix([-0,1,-0]),
 ]
 
 # points.append(np.matrix([-1, -1, 1]))
