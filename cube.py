@@ -18,16 +18,17 @@ cube_position = [WIDTH//2,HEIGHT//2]
 scale = 100
 speed = 0.01
 angle = 0
-points = []
+points = [
+    np.matrix([-1, -1, 1]),
+    np.matrix([1, -1, 1]),
+    np.matrix([1, 1, 1]),
+    np.matrix([-1, 1, 1]),
 
-points.append(np.matrix([-1, -1, 1]))
-points.append(np.matrix([1, -1, 1]))
-points.append(np.matrix([1,  1, 1]))
-points.append(np.matrix([-1, 1, 1]))
-points.append(np.matrix([-1, -1, -1]))
-points.append(np.matrix([1, -1, -1]))
-points.append(np.matrix([1, 1, -1]))
-points.append(np.matrix([-1, 1, -1]))
+    np.matrix([-1, -1, -1]),
+    np.matrix([1, -1, -1]),
+    np.matrix([1, 1, -1]),
+    np.matrix([-1, 1, -1])
+]
 
 projection_matrix = [
     [1,0,0],
