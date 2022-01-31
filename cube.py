@@ -2,6 +2,7 @@ import pygame as p
 import numpy as np
 from math import sin,cos
 
+
 p.init()
 WIDTH = 600
 HEIGHT = 600
