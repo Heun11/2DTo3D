@@ -90,7 +90,7 @@ while run:
 
         projected_points[i] = [x,y]
 
-        # p.draw.circle(screen, GREEN, (x,y), 5)
+        p.draw.circle(screen, GREEN, (x,y), 5)
 
         i += 1
 
